@@ -31,7 +31,8 @@ def process_downloads_folder():
     Process all HEIC files in the Downloads folder and convert them to JPG.
     """
     downloads_path = Path.home() / "Downloads"
-    output_folder = downloads_path / "PYRAMID-3BR+DSQ"
+    output_folder = downloads_path / "Escada-2br-17.5M"
+    
     output_folder.mkdir(exist_ok=True)
 
     heic_files = list(downloads_path.glob("*.HEIC")) + list(downloads_path.glob("*.heic"))
