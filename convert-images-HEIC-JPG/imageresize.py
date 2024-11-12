@@ -9,7 +9,7 @@ def get_downloads_folder():
 
 def create_output_folder(downloads_path):
     """Create output folder for resized images"""
-    output_folder = os.path.join(downloads_path, "Escada-studio-201-furnished-125k")
+    output_folder = os.path.join(downloads_path, "Escada-studio-201-furnished-125k-edited")
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
     return output_folder
